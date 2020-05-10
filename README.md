@@ -2,10 +2,10 @@
 全程自己动手学习webpack
 
 # webpack-demo1
-##初始化项目
+## 初始化项目
 1) `npm init  // 这是安装package.json`
 2) `npm i webpack -D //等同于 npm install webpack --save-dev  这是安装webpack`
-##下面开始使用webpack
+## 下面开始使用webpack
 1) 编写一个index.js,内容如下:
 ```javascript
   document.write('hello webpack')
