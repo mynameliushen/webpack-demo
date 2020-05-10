@@ -1,0 +1,12 @@
+html {
+  padding:0;
+  margin:0;
+}
+.root{
+  width: 80%;
+  font-size: 75px;
+  margin: 100px auto;
+  text-align:center;
+  color: red;
+  display: flex;
+}
