@@ -127,3 +127,25 @@ rules: [
 ]
 ```
 2) html-inline-css-webpack-plugin （用的更加广泛）
+
+## webpack-demo8 （实现打包vue项目）
+npm i vue vue-loader vue-tempiler -D
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+use: [
+  {
+    test: /\.vue$/,
+    use: 'vue-loader'
+  }
+]
+plugins: [
+  new VueLoaderPlugin()
+]
+
+// 提取公共资源 
+1)html-webpack-externals-plugin
+npm i html-webpack-externals-plugin -D
+2) 使用split 
+
+
+## webpack-demo9 (理解tree shaking)
+
